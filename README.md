@@ -1,7 +1,7 @@
 # Can Active Learning Preemptively Mitigate Fairness Issues?
 
 Code for the paper "Can Active Learning Preemptively Mitigate Fairness Issues?" presented at RAI 2021.
-
+Arxiv link: https://arxiv.org/pdf/2104.06879.pdf
 
 ### Glossary
 
