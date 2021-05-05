@@ -4,11 +4,14 @@ Code for the paper "Can Active Learning Preemptively Mitigate Fairness Issues?" 
 
 Arxiv link: https://arxiv.org/pdf/2104.06879.pdf
 
+This repo aims at helping researchers reproduce our paper. We welcome questions and suggestions, please submit an issue! 
+If you are working in active learning, our library [BaaL](https://github.com/ElementAI/baal/) might help you!
+
+
 ### Glossary
 
 * query_size : Number of data labelled per AL step
 * AL Step: process of training, selecting samples, and labelling.
-* max_sample: Make the pool smaller by randomly selecting it.
 * learning_epoch: Number of epoch to train the model before uncertainty estimation.
 
 
@@ -51,7 +54,7 @@ hyperparams = {} # Dictionnary for the hparams
 model = utils.vgg16(pretrained=hyperparams['pretrained'],
                           num_classes=hyperparams['n_cls'])
 
-# change dropout layer to MCD
+# change dropout layer to be able to use MC-Dropout
 model = patch_module(model)
 ```
 
