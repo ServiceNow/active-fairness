@@ -2,6 +2,9 @@
 
 Code for the paper "Can Active Learning Preemptively Mitigate Fairness Issues?" presented at RAI 2021.
 
+![Slide1](https://user-images.githubusercontent.com/8976546/170715692-10661c82-5283-4cff-bf88-e5b58a255820.jpg)
+
+
 Arxiv link: https://arxiv.org/pdf/2104.06879.pdf
 
 This repo aims at helping researchers reproduce our paper. We welcome questions and suggestions, please submit an issue! 
