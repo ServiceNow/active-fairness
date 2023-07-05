@@ -70,3 +70,6 @@ Here is an example to run our experiment on a particular dataset.
 To generate the datasets, please look in `misc/biased_dataset.ipynb`.
 
 `poetry run python experiments/grad_experiment.py datasets/minority_dataset_50000.pkl color char`
+
+## Vulnerability Reporting
+Please notify psirt-oss@servicenow.com regarding any vulnerability reports in addition to following current reporting procedure.
